@@ -14,7 +14,15 @@
     <p> Hello</p>
     <img src="{{url_for ('static',filename='luffy.png')}}" style="width:500px;height:250px">
     <p>Format: http://127.0.0.1:5000/api/v1/station/date</p>
-    <p>Example: http://127.0.0.1:5000/api/v1/10/1860-01-01 </p>
+    <p>Example: http://127.0.0.1:5000/api/v1/10/1860-01-01 </p><br>
+
+    <p>Format: http://127.0.0.1:5000/api/v1/station</p>
+    <p>Example: http://127.0.0.1:5000/api/v1/10 </p><br>
+
+    <p>Format: http://127.0.0.1:5000/api/v1/station/year</p>
+    <p>Example: http://127.0.0.1:5000/api/v1/10/1990 </p>
+
+
     <p>{{data|safe}}</p>
 </body>
 </html>
